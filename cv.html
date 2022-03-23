@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV HTML</title>
+    <link rel="stylesheet" href="cv.css">
+</head>
+
+<body>
+
+    <!--Div permettant de définir les dimensions du CV, l'empêchant de prendre toute la largeur du PC-->
+    <div id="dimensions">
+
+        <!--Div nom/prénom (+photo)-->
+        <div id="main">
+
+            <div>
+               <p style="color: gray;">la photo (penser également à donner aux deux divs enfants la forme incurvée au centre)</p> 
+            </div>
+
+            <div>
+
+                <div>
+                    <h1>Romaric MITCHENKO</h1>
+                </div>
+
+                <div>
+                    <h3>STAGE DÉVELOPPEUR WEB</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!--Div infos séparée en 5 divs enfants correspondant au différentes parties du CV-->
+        <div id="second">
+
+            <!--Coordonnées-->
+            <div>
+
+                <!--Github-->
+                <div>
+
+                    <div>
+                        &#127760
+                    </div>
+
+                    <div>
+                        <a href="https://github.com/Mitchrom" target="blank">https://github.com/Mitchrom</a>
+                    </div>
+
+                    <div>
+                        <p>(plateforme en ligne sur laquelle je dépose mes différents projets et apprentissages)</p>
+                    </div>
+
+                </div>
+
+                <!--Téléphone-->
+                <div>
+
+                    <div>
+                        &#9742
+                    </div>
+
+                    <div>
+                        <p>+337 66 07 73 32</p>
+                    </div>
+
+                </div>
+
+                <!--E-mail-->
+                <div>
+
+                    <div>
+                        &#9993
+                    </div>
+
+                    <div>
+                        <p>romaricmitch@gmail.com</p>
+                    </div>
+
+                </div>
+
+            </div>
+            
+            <!--A propos-->
+            <div>
+                <div class="index" style="position: relative; top: 6%">
+                    <h4>À PROPOS DE MOI</h4>
+                </div>
+                <p>Le monde de l'informatique m'a toujours intéressé, et ce depuis l'enfance. Cette formation me permet d'y faire mes premiers pas. Mon objectif à terme et de connaître les "coulisses" afin de protéger les autres des dangers liés au web comme notamment le piratage, et éventuellement leur enseigner différentes manières de se défendre, après tout personne mérite de démeurer dans l'incertitude.</p>
+                <div class="index" style="position: relative; bottom: 6%">
+                    <h4>APTITUDES</h4>
+                </div>
+            </div>
+
+            <!--Cette div sera sûrement la plus chiante à faire. J'parle même pas des progress bars (ça devrait le faire), mais de l'agencement des éléments-->
+            <div>
+
+                <div>
+                    <div>
+                        <p>HTML</p>
+                        <progress max="100" value="70"></progress>
+                        <p style="font-size: 0.7em; margin: 0% 10% 7.5% 10%; text-align: justify;">*Utiliser les balises à bon escient afin de structurer le squelette d'un site</p>
+                    </div>
+
+                    <div>
+                        <p>CSS</p>
+                        <progress max="100" value="65"></progress>
+                        <p style="font-size: 0.7em; margin: 0% 10% 7.5% 10%; text-align: justify;">*Styliser le site web avec les commandes CSS</br>
+                            *maîtrise partielle du responsive avec la méthode flex, permettant d'avoir un rendu du site sur smartphone</p>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div>
+                        <h4 style="text-decoration: underline;">Exemples de mes créations (en binômes)</h4>
+                    </div>
+
+                    <div>
+                        <a href="mitchrom.github.io" target="blank">mitchrom.github.io</a>
+                    </div>
+
+                    <div>
+                        <a href="https://gagoer.github.io/GARO/index.html" target="blank">https://gagoer.github.io/GARO/index.html</a>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div>
+                        <p>JS</p>
+                        <progress max="100" value="70"></progress>
+                        <p style="font-size: 0.7em; margin: 0% 10% 7.5% 10%; text-align: justify;">*Gérer l'interaction entre deux pages d'un site (via les boutons et l'évènement "onclick")</br>
+                            *Générer un fichier PDF à partir des informations d'un formulaire</br>
+                            *Réaliser une fonction JS permettant de génerér un tableau en quadrillage et de le colorier à la manière d'un pixel art</p>
+                    </div>
+
+                    <div>
+                        <p>Back-End</p>
+                        <progress max="100" value="35"></progress>
+                        <p style="font-size: 0.8em; margin: 0% 10% 7.5% 10%;"></p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Pour cette div, créer une div qui sera au centre mais vide, permettant de conserver le design originel du CV-->
+            <div>
+
+                <div>
+
+                    <div>
+                        <h4>2016 - 2020</h4>
+                        <h4>Lycée Lumina Sophie</h4>
+                    </div>
+
+                    <div>
+                        <p>Bac Scientifique</p>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p style="display: none;">Cette div sera vide</p>
+                </div>
+
+                <div>
+
+                    <div>
+                        <h4>Août 2021 - Juillet 2022</h4>
+                        <h4>RSMA Guyane</h4>
+                    </div>
+
+                    <div>
+                        <p>Formation Développeur Web</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!--Untruc simple à faire pour la fin-->
+            <div>
+
+                <div>
+
+                    <div>
+                        <h4>Août 2021 - Juillet 2022</h4>
+                        <h4 style="margin: 10% 0% 12.5% 0%;">Formation Développeur Web</h4>
+                    </div>
+
+                    <div >
+                        <p style="font-size: .75em; text-align: justify;">-Certification Opquast obtenue</br>
+                        -Apprendre à créer des sites statiques</br>
+                        -Apprendre à dynamiser un site</br>
+                        -Créer et gérer une base de données</p>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div>
+                        <h4>Mars 2021 - Mai 2021</h4>
+                        <h4>Serveur en extra au restaurant "L'accoustik Lounge" à Saint-Laurent du Maroni</h4>
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <div>
+                        <h4>2018 - 2020</h4>
+                        <h4>Vendeur dans une rôtisserie au marché de Saint-Laurent du Maroni</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
